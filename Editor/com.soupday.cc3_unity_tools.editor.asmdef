@@ -1,5 +1,5 @@
 {
-    "name": "soupday.cc3_unity_tools.editor",
+    "name": "soupday.cc3_unity_tools_standard.editor",
     "rootNamespace": "Reallusion.Import",
     "references": [
         "GUID:3eae0364be2026648bf74846acb8a731",
@@ -28,7 +28,9 @@
         ""
     ],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "!URP_PIPELINE"
+    ],
     "versionDefines": [
         {
             "name": "com.unity.postprocessing",

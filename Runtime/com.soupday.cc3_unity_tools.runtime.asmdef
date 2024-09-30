@@ -1,5 +1,5 @@
 {
-    "name": "soupday.cc3_unity_tools.runtime",
+    "name": "soupday.cc3_unity_tools_standard.runtime",
     "rootNamespace": "Reallusion.Import",
     "references": [],
     "includePlatforms": [],
@@ -10,7 +10,9 @@
         ""
     ],
     "autoReferenced": true,
-    "defineConstraints": [],
+    "defineConstraints": [
+        "!URP_PIPELINE"
+    ],
     "versionDefines": [],
     "noEngineReferences": false
 }
